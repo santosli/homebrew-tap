@@ -1,11 +1,11 @@
 cask "skillbox" do
-  version "0.1.0-alpha.3"
-  sha256 "bfbf4b748994480e04df7d5ef8b03b37d532506b904bf7f38d6fc4b347f729c2"
+  version "0.2.0"
+  sha256 "828a0cf99a091168a7b1b1b269e82a583f989dcc18feca9d02db3c4a26a0ecde"
 
-  url "https://github.com/santosli/skill-box/releases/download/v#{version}/SkillBox_#{version}_universal.dmg"
+  url "https://github.com/santosli/SkillBox/releases/download/v#{version}/SkillBox_#{version}_universal.dmg"
   name "SkillBox"
   desc "Local skill manager for agent runtimes"
-  homepage "https://github.com/santosli/skill-box"
+  homepage "https://github.com/santosli/SkillBox"
 
   depends_on macos: ">= :sonoma"
 
